@@ -34,9 +34,10 @@ class.PIECE.php
 	
 	/*
 	Things that I think (at this time) should be stored
-	color = piece color (white/black)
+	color = piece color (white/black) (optional for everything except bishop).
 	position_x = 1-8 (normally A-H)
 	position_y = 1-8
+	position_QL = 1 (quick look position)
 	team = is it white or black piece?
 	moves = total number of moves this piece had made. (helpful for tracking, en passant, etc)
 	taken = true/false (if this piece has been taken)
