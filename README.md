@@ -56,4 +56,5 @@ CHANGELOG:<br>
 - Laying out the framework and classes I think are immediately necessary to start the build.<br>
 - Created the files for the Board Class, and each piece class.<br>
 - Created functions (non-functional) to layout my thought process in developing this<br>
+- Created pawns and their position(s). The actual pawn class needs a ton of work. But I wanted to get the positioning down.<br>
 	

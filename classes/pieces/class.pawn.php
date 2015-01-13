@@ -9,6 +9,7 @@ class piecesPawn{
 			
 		*/
 		$arg_list = func_get_args();
+		$this->pieceOptions[] = $arg_list;
 	}
 	function canMove($x,$y){
 		//pass in x,y coords to determine if the piece can move as such.

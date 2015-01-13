@@ -1,10 +1,5 @@
 <?php
-include_once './pieces/class.bishop.php';	
-include_once './pieces/class.king.php';	
-include_once './pieces/class.knight.php';	
-include_once './pieces/class.pawn.php';	
-include_once './pieces/class.queen.php';	
-include_once './pieces/class.rook.php';	
+
 	
 class pieceBuilder{
 	static $pieces = array();
@@ -21,18 +16,40 @@ class pieceBuilder{
 			positions = 	1,7 	2,7 	3,7 	4,7 	5,7 	6,7 	7,7 	8,7
 			ids = 			6 		14		22		30		38		46		54		62	
 		*/
+		$pawns = 1;
 		
-		
-		$this->pieces['white']['pawns'][0] = new piecesPawn(array('team'=>'white',
-																  'position_x'=>1,
-																  'position_y'=>2,
-																  'position_QL'=>1,
-																  'moves'=>0,
-																  'taken'=>false,
-																  'offboard'=false,
-																  'promotion'=>false)
-															);
-		
-						
-	}	
+		while($pawns <= 16){
+			if($pawns <=8){
+				$team = "white";
+				$x = $pawns;
+				$y = 2;
+				$ql = (8*$pawns) - 7;
+			}else{
+				$team = "black";
+				$x = $pawns - 8;
+				$y = 7;
+				$ql = (8*($pawns-8)) - 2;
+			}
+			
+			$options = array( 'team'=>$team,
+							  'position_x'=>$x,
+							  'position_y'=>$y,
+							  'position_QL'=>$ql,
+							  'moves'=>0,
+							  'taken'=>false,
+							  'offboard'=>false,
+							  'promotion'=>false
+							);													
+			$this->createPiece("pawn",$team,$options);	
+			$pawns++;
+		}										
+	}
+	function createPiece($type,$color,$options){
+		if($type == 'pawn'){
+			$this->pieces[$color][$type][] = new piecesPawn($options);
+		}	
+	}
+	function showPieces(){
+		print_r($this->pieces);
+	}
 }

@@ -1,0 +1,431 @@
+Array
+(
+    [color] => white
+    [position_x] => 1
+    [position_y] => 1
+    [team] => white
+)
+Array
+(
+    [color] => black
+    [position_x] => 1
+    [position_y] => 2
+    [team] => white
+)
+Array
+(
+    [color] => black
+    [position_x] => 1
+    [position_y] => 3
+    [team] => black
+)
+Array
+(
+    [color] => white
+    [position_x] => 1
+    [position_y] => 4
+    [team] => black
+)
+Array
+(
+    [white] => Array
+        (
+            [pawn] => Array
+                (
+                    [0] => piecesPawn Object
+                        (
+                            [pieceOptions] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [team] => white
+                                                    [position_x] => 1
+                                                    [position_y] => 2
+                                                    [position_QL] => 1
+                                                    [moves] => 0
+                                                    [taken] => 
+                                                    [offboard] => 
+                                                    [promotion] => 
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => piecesPawn Object
+                        (
+                            [pieceOptions] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [team] => white
+                                                    [position_x] => 2
+                                                    [position_y] => 2
+                                                    [position_QL] => 9
+                                                    [moves] => 0
+                                                    [taken] => 
+                                                    [offboard] => 
+                                                    [promotion] => 
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [2] => piecesPawn Object
+                        (
+                            [pieceOptions] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [team] => white
+                                                    [position_x] => 3
+                                                    [position_y] => 2
+                                                    [position_QL] => 17
+                                                    [moves] => 0
+                                                    [taken] => 
+                                                    [offboard] => 
+                                                    [promotion] => 
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [3] => piecesPawn Object
+                        (
+                            [pieceOptions] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [team] => white
+                                                    [position_x] => 4
+                                                    [position_y] => 2
+                                                    [position_QL] => 25
+                                                    [moves] => 0
+                                                    [taken] => 
+                                                    [offboard] => 
+                                                    [promotion] => 
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [4] => piecesPawn Object
+                        (
+                            [pieceOptions] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [team] => white
+                                                    [position_x] => 5
+                                                    [position_y] => 2
+                                                    [position_QL] => 33
+                                                    [moves] => 0
+                                                    [taken] => 
+                                                    [offboard] => 
+                                                    [promotion] => 
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [5] => piecesPawn Object
+                        (
+                            [pieceOptions] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [team] => white
+                                                    [position_x] => 6
+                                                    [position_y] => 2
+                                                    [position_QL] => 41
+                                                    [moves] => 0
+                                                    [taken] => 
+                                                    [offboard] => 
+                                                    [promotion] => 
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [6] => piecesPawn Object
+                        (
+                            [pieceOptions] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [team] => white
+                                                    [position_x] => 7
+                                                    [position_y] => 2
+                                                    [position_QL] => 49
+                                                    [moves] => 0
+                                                    [taken] => 
+                                                    [offboard] => 
+                                                    [promotion] => 
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [7] => piecesPawn Object
+                        (
+                            [pieceOptions] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [team] => white
+                                                    [position_x] => 8
+                                                    [position_y] => 2
+                                                    [position_QL] => 57
+                                                    [moves] => 0
+                                                    [taken] => 
+                                                    [offboard] => 
+                                                    [promotion] => 
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [black] => Array
+        (
+            [pawn] => Array
+                (
+                    [0] => piecesPawn Object
+                        (
+                            [pieceOptions] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [team] => black
+                                                    [position_x] => 1
+                                                    [position_y] => 7
+                                                    [position_QL] => 6
+                                                    [moves] => 0
+                                                    [taken] => 
+                                                    [offboard] => 
+                                                    [promotion] => 
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => piecesPawn Object
+                        (
+                            [pieceOptions] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [team] => black
+                                                    [position_x] => 2
+                                                    [position_y] => 7
+                                                    [position_QL] => 14
+                                                    [moves] => 0
+                                                    [taken] => 
+                                                    [offboard] => 
+                                                    [promotion] => 
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [2] => piecesPawn Object
+                        (
+                            [pieceOptions] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [team] => black
+                                                    [position_x] => 3
+                                                    [position_y] => 7
+                                                    [position_QL] => 22
+                                                    [moves] => 0
+                                                    [taken] => 
+                                                    [offboard] => 
+                                                    [promotion] => 
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [3] => piecesPawn Object
+                        (
+                            [pieceOptions] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [team] => black
+                                                    [position_x] => 4
+                                                    [position_y] => 7
+                                                    [position_QL] => 30
+                                                    [moves] => 0
+                                                    [taken] => 
+                                                    [offboard] => 
+                                                    [promotion] => 
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [4] => piecesPawn Object
+                        (
+                            [pieceOptions] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [team] => black
+                                                    [position_x] => 5
+                                                    [position_y] => 7
+                                                    [position_QL] => 38
+                                                    [moves] => 0
+                                                    [taken] => 
+                                                    [offboard] => 
+                                                    [promotion] => 
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [5] => piecesPawn Object
+                        (
+                            [pieceOptions] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [team] => black
+                                                    [position_x] => 6
+                                                    [position_y] => 7
+                                                    [position_QL] => 46
+                                                    [moves] => 0
+                                                    [taken] => 
+                                                    [offboard] => 
+                                                    [promotion] => 
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [6] => piecesPawn Object
+                        (
+                            [pieceOptions] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [team] => black
+                                                    [position_x] => 7
+                                                    [position_y] => 7
+                                                    [position_QL] => 54
+                                                    [moves] => 0
+                                                    [taken] => 
+                                                    [offboard] => 
+                                                    [promotion] => 
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [7] => piecesPawn Object
+                        (
+                            [pieceOptions] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [team] => black
+                                                    [position_x] => 8
+                                                    [position_y] => 7
+                                                    [position_QL] => 62
+                                                    [moves] => 0
+                                                    [taken] => 
+                                                    [offboard] => 
+                                                    [promotion] => 
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

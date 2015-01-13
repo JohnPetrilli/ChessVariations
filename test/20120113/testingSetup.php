@@ -1,7 +1,14 @@
 <?php
 
 include_once '../../classes/class.board.php';
+include_once '../../classes/class.piecebuilder.php';
 include_once '../../classes/pieces/class.bishop.php';
+include_once '../../classes/pieces/class.bishop.php';	
+include_once '../../classes/pieces/class.king.php';	
+include_once '../../classes/pieces/class.knight.php';	
+include_once '../../classes/pieces/class.pawn.php';	
+include_once '../../classes/pieces/class.queen.php';	
+include_once '../../classes/pieces/class.rook.php';	
 
 $bishopWW = new piecesBishop();
 $bishopWW->pieceOptions['color'] = "white";
@@ -34,3 +41,7 @@ print_r($bishopBW->pieceOptions);
 
 
 $board = new chessBoard();
+
+$pb = new pieceBuilder();
+$pb->newGame();
+$pb->showPieces();
