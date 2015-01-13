@@ -51,9 +51,9 @@ class.PIECE.php
 More to come..
 
 
-CHANGELOG:
-2015-01-13 
-	- Laying out the framework and classes I think are immediately necessary to start the build.
-	- Created the files for the Board Class, and each piece class.
-	- Created functions (non-functional) to layout my thought process in developing this
+CHANGELOG:<br>
+2015-01-13<br> 
+- Laying out the framework and classes I think are immediately necessary to start the build.<br>
+- Created the files for the Board Class, and each piece class.<br>
+- Created functions (non-functional) to layout my thought process in developing this<br>
 	
